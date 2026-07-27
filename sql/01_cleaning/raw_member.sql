@@ -8,13 +8,13 @@ SELECT
     COUNTIF(gender IS NULL) AS null_gender,
     COUNTIF(city IS NULL) AS null_city,
     COUNTIF(join_date IS NULL) AS null_join_date
-FROM `porfo-502707.promotion.raw_member`;
+FROM `raw_member`;
 
 -- Check variation in date formats
 SELECT 
     join_date, 
     COUNT(*) AS num_date
-FROM `porfo-502707.promotion.raw_member`
+FROM `raw_member`
 GROUP BY join_date
 ORDER BY num_date DESC
 LIMIT 20;
@@ -23,13 +23,13 @@ LIMIT 20;
 SELECT 
     member_code, 
     COUNT(*) AS num_duplicate
-FROM `porfo-502707.promotion.raw_member`
+FROM `raw_member`
 GROUP BY member_code
 HAVING COUNT(*) > 1;
 
 -- Step 2 : Cleaning & Transformation
  -- Create clean table
-CREATE OR REPLACE TABLE `porfo-502707.promotion.clean_member` AS
+CREATE OR REPLACE TABLE `clean_member` AS
 
 -- Deduplicate records keeping the earliest join date
 WITH deduplication AS (
@@ -39,7 +39,7 @@ WITH deduplication AS (
             PARTITION BY member_code 
             ORDER BY join_date ASC
         ) AS row_num
-    FROM `porfo-502707.promotion.raw_member`
+    FROM `raw_member`
 )
 
 SELECT 
@@ -68,5 +68,5 @@ WHERE row_num = 1;
 -- Step 3 : Data Validation 
 -- Inspect cleaned sample output
 SELECT * 
-FROM `porfo-502707.promotion.clean_member` 
+FROM `clean_member` 
 LIMIT 10;
