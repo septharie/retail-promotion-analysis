@@ -13,7 +13,14 @@ An end-to-end data analytics project evaluating the effectiveness of retail prom
 
 ![Retail Promotion Analytics Dashboard](assets/dashboard_preview.jpg)
 
-🔗 **[View Interactive Looker Studio Dashboard](https://datastudio.google.com/reporting/5dc9b105-6c78-4200-8092-f68da792087f/page/gjo4F)**
+---
+
+## 📁 Dataset & Data Availability
+
+All raw data, cleaned tables, and analytical output datasets used in this project are hosted and available on Kaggle:
+
+* 📊 **Kaggle Dataset:** [Retail Sales & Promotion Performance Dataset](https://www.kaggle.com/datasets/YOUR_KAGGLE_USERNAME/YOUR_DATASET_SLUG)
+* 🔗 **Looker Studio Dashboard:** [Interactive Dashboard Link](https://datastudio.google.com/reporting/5dc9b105-6c78-4200-8092-f68da792087f/page/gjo4F)
 
 ---
 
