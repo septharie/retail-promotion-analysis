@@ -13,7 +13,7 @@ An end-to-end data analytics project evaluating the effectiveness of retail prom
 
 ![Retail Promotion Analytics Dashboard](assets/dashboard_preview.jpg)
 
-🔗 **[View Interactive Looker Studio Dashboard](https://datastudio.google.com/reporting/5dc9b105-6c78-4200-8092-f68da792087f/page/gjo4F)** *(Replace this with your shared Looker Studio link)*
+🔗 **[View Interactive Looker Studio Dashboard](https://datastudio.google.com/reporting/5dc9b105-6c78-4200-8092-f68da792087f/page/gjo4F)**
 
 ---
 
