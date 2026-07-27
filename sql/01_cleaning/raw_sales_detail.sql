@@ -64,7 +64,7 @@ SELECT
 FROM deduplication d
 LEFT JOIN `clean_product` p 
     ON d.product_id = p.product_id
-LEFT JOIN `raw_promo` pr 
+LEFT JOIN `clean_promo` pr 
     ON d.promo_id = pr.promo_id
 WHERE d.row_num = 1
     AND p.product_id IS NOT NULL;
