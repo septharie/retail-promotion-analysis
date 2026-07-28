@@ -19,7 +19,7 @@ An end-to-end data analytics project evaluating the effectiveness of retail prom
 
 All raw data, cleaned tables, and analytical output datasets used in this project are hosted and available on Kaggle:
 
-* 📊 **Kaggle Dataset:** [Retail Sales & Promotion Performance Dataset](https://www.kaggle.com/datasets/septharie/retail_promotion)
+* 📊 **Kaggle Notebook:** [Retail Promotion Analytics: Case Study & Insights](https://www.kaggle.com/code/septarina/retail-promotion-analytics-case-study-insights)
 * 🔗 **Looker Studio Dashboard:** [Interactive Dashboard Link](https://datastudio.google.com/reporting/5dc9b105-6c78-4200-8092-f68da792087f/page/gjo4F)
 
 ---
@@ -97,6 +97,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-**Septharie**
+**Septha**
 * 🌐 Portfolio Website: [septha.github.io](https://septha.github.io)
 * 🐙 GitHub: [@septharie](https://github.com/septharie)
