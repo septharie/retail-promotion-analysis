@@ -99,4 +99,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Septha**
 * 🌐 Portfolio Website: [septha.github.io](https://septha.github.io)
-* 🐙 GitHub: [@septharie](https://github.com/septharie)
+* 🐙 GitHub: [@septha](https://github.com/septha)
